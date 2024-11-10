@@ -3,7 +3,7 @@
 rojo='\e[1;31m'
 verde='\e[1;32m'
 amarillo='\e[1;33m'
-reset='\3[0m'
+reset='\e[0m'
 
 echo -e "${verde}Comenzando con las verificaciones básicas...${reset}"
 sleep 2
