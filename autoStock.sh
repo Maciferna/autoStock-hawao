@@ -78,6 +78,7 @@ if [ "$status" == 'y' ]; then
   fastboot flash vbmeta stock/vbmeta.img
   fastboot flash vbmeta_system stock/vbmeta_system.img
   fastboot reboot bootloader
+  sleep 30
   fastboot flash radio stock/radio.img
   fastboot flash bluetooth stock/BTFM.bin
   fastboot flash dsp stock/dspso.bin
@@ -101,6 +102,7 @@ if [ "$status" == 'y' ]; then
   fastboot flash super stock/super.img_sparsechunk.12
   fastboot flash super stock/super.img_sparsechunk.13
   fastboot reboot bootloader
+  sleep 30
   fastboot erase carrier
   fastboot erase userdata
   fastboot erase metadata
