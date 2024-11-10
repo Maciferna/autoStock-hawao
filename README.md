@@ -11,3 +11,5 @@ chmod +x autoStock.sh
 ```bash
 ./autoStock.sh
 ```
+# Importante
+La version para windows no está testeada ni aseguro su funcionamiento, la de linux tampoco pero su funcionamiento es asegurado
