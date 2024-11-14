@@ -47,7 +47,7 @@ Check-Bin "Expand-Archive"
 Write-Host "`n"
 Start-Sleep -Seconds 2
 
-Invoke-WebRequest -Uri "https://mirrors.lolinet.com/firmware/lenomola/2022/hawao/official/ALTMX/XT2233-1_HAWAO_OPENMX_13_T2SES33.73-23-2-11_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip" -OutFile "rom.zip"
+Invoke-WebRequest -Uri "https://mirrors.lolinet.com/firmware/lenomola/2022/hawao/official/RETAR/XT2233-1_HAWAO_OPENLA_13_T2SES33.73-23-2-11_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip" -OutFile "rom.zip"
 
 Write-Host "${rojo}Descomprimiendo...${reset}"
 Start-Sleep -Seconds 2
