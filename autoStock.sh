@@ -49,7 +49,7 @@ check_bin unzip
 echo -e "\n"
 sleep 2
 
-wget "https://mirrors.lolinet.com/firmware/lenomola/2022/hawao/official/ALTMX/XT2233-1_HAWAO_OPENMX_13_T2SES33.73-23-2-11_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip"
+wget "https://mirrors.lolinet.com/firmware/lenomola/2022/hawao/official/RETAR/XT2233-1_HAWAO_OPENLA_13_T2SES33.73-23-2-11_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip"
 
 
 echo -e "${rojo}Descomprimiendo...${reset}"
